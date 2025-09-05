@@ -1,7 +1,10 @@
 @font-face {
   font-family: "Minecraft";
-  src: url("https://github.com/defoltik1337/discord/raw/refs/heads/main/minecraft.ttf") format("truetype");
+  src: url("https://github.com/defoltik1337/defoltik1337/raw/refs/heads/main/minecraft.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 :root {
   --slate-file-version: "1.2";
   --slate-base-version: "1.6.15";
@@ -24,7 +27,8 @@
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
   --spacing-compact: 2px;
-  --font-family-sans-serif: "Minecraft"
+  --font-family-sans-serif: "Minecraft", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-size-xsm: 9px;
   --font-size-sm: 11px;
@@ -15746,4 +15750,5 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-2JjMmN .guildSeparator-3s6
     transform: translate(0, 0) rotate(0);
     opacity: 1;
   }
+
 }
