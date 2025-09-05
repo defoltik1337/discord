@@ -1,8 +1,6 @@
 @font-face {
   font-family: "Minecraft";
-  src: url("https://github.com/defoltik1337/defoltik1337/raw/refs/heads/main/minecraft.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/defoltik1337/defoltik1337/minecraft.ttf") format("truetype");
 }
 
 :root {
@@ -27,9 +25,9 @@
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
   --spacing-compact: 2px;
-  --font-primary: "Minecraft", "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "Minecraft", "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-headline: "Minecraft", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-primary: "Minecraft", "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-display: "Minecraft", "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-headline: "Minecraft", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --font-size-xsm: 9px;
   --font-size-sm: 11px;
   --font-size: 12px;
@@ -15752,4 +15750,5 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-2JjMmN .guildSeparator-3s6
   }
 
 }
+
 
